@@ -5,10 +5,11 @@
  ** main - Entry point
  ** Return: Always 0 (Success)
  **/
-int main (void)
+int main(void)
 {
-char lc;
-for (lc = 'a'; lc <= 'z'; lc++)
-putchar(lc);
+char x;
+for (x = 'a'; x <= 'z'; x++)
+putchar(x);
+putchar('\n');
 return (0);
 }
