@@ -1,15 +1,14 @@
 #include"main.h"
 /**
  ** _puts - a function that prints a string
- ** @str: string input
- ** Return: string
+ ** @a: input 1
+ ** @e:  input 2
+ ** Return: integers
  **/
-void _puts(char *str)
+void swap_int(int *a, int *e)
 {
 int i;
-for (i = 0; str[i] != '\0'; i++)
-{
-_putchar(str[i]);
-}
-_putchar('\n');
+i = *a;
+*a = *e;
+*e = i;
 }
