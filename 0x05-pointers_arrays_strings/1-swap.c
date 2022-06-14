@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- ** _puts - a function that prints a string
+ ** swap_int - a function that swaps the values of two integers.
  ** @a: input 1
  ** @e:  input 2
  ** Return: integers
