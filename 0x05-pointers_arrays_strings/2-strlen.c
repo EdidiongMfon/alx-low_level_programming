@@ -1,15 +1,16 @@
 #include "main.h"
-#include "stdio.h"
-/** _puts a function that prints a string
+/** _strlen - a function that returns the length of a string
  ** @s: string input
  ** Return: string
  **/
 int _strlen(char *s)
 {
-char *str;
-int ring;
-str = "My first strlen!";
-ring = _strlen(str);
-printf("%d\n", ring);
-return (0);
+int i = 1, len = 0;
+char pl = s[0];
+while (pl != '\0')
+{
+len++;
+pl = s[i++];				 }
+}
+return (len);
 }
