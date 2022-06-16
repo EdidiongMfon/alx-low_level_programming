@@ -6,5 +6,6 @@
  **/
 void print_number(int n)
 {
-_putchar('n');
+int n = a;
+_putchar('a');
 }
