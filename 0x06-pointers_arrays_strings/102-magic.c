@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-
-
 int main(void)
-
 {
 
 	  int n;
@@ -42,5 +38,4 @@ a[2] = 98		    ;
 
 		        return (0);
 
-}
-© 2022 GitHub, 
+} 
