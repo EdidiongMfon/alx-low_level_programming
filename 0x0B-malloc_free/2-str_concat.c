@@ -20,7 +20,7 @@ i++;
 while (s2[j])
 j++;
 l = i + j;
-array = (char *)malloc(sizeof(char) * l + l);
+array = (char *)malloc(sizeof(char) * l + 1);
 if (array == NULL)
 return (NULL);
 j = 0;
