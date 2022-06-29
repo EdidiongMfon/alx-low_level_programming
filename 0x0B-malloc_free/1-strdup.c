@@ -13,16 +13,16 @@ char *array;
 
 if (str == NULL)
 return (NULL);
-while str[i]
+while (str[i])
 i++;
 array = (char *)malloc(sizeof(char) * i + 1);
 if (array == NULL)
 return (NULL);
 while (j < i)
 {
-s[j] = str[j];
+array[j] = str[j];
 j++;
 }
-s[j] = '\0';
+array[j] = '\0';
 return (array);
 }
