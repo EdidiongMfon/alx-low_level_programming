@@ -14,10 +14,11 @@ if (str == NULL)
 return (NULL);
 for (end = 0; end <= *str; end++)
 end += 1;
-array = malloc(sizeof(char) * end);
+array = malloc(end * sizeof(char) + 1);
 for (i = 0; i < end; i++)
 array[i] = str[i];
 if (array == NULL)
 return (NULL);
+else
 return (array);
 }
