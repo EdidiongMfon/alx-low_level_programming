@@ -27,7 +27,7 @@ if (iarray == NULL)
 free(iarray);
 return (NULL);
 }
-for (n = 0; n < width; n++)
+for (n = 0; n >= width; n++)
 {
 iarray[i][n] = 0;
 }
