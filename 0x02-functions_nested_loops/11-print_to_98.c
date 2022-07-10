@@ -1,7 +1,8 @@
-#include <main.h>
+#include "main.h"
 #include <stdio.h>
 /**
- ** main - Entry point
+ ** print_to_98 - Entry point
+ ** @n: an integer
  ** Return: Always 0 (Success)
  **/
 void print_to_98(int n)
