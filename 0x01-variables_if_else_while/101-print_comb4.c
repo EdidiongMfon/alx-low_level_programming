@@ -9,16 +9,15 @@
 int main(void)
 {
 int d;
-for (d = 0; d < 210; d++);
+for (d = 0; d < 800; d++)
 {
 putchar((d / 10) + '0');
 putchar((d % 10) + '0');
 }
-if (d != 209)
+if (d != 799)
 {
 putchar(',');
 putchar(' ');
-}
 }
 putchar('\n');
 return (0);
