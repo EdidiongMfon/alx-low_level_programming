@@ -1,3 +1,9 @@
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stddef.h>
 #include "main.h"
 /**
  ** read_textfile - Entry Point
@@ -16,7 +22,8 @@ if (file == -1)
 return (0);
 buf = malloc(sizeof(char) * letters + 1);
 if (buf == NULL)
-return (0);									rd = read(file, buf, letters);
+return (0);
+rd = read(file, buf, letters);
 if (rd == -1)
 return (0);
 buf[letters] = '\0';
